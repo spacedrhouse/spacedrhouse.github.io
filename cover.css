@@ -72,6 +72,15 @@ header {
   
 }
 
+.container-title {
+  background: transparent;
+  height: auto;
+  width: auto;
+  border: 1px solid #000;
+  margin: 1 auto;
+  align-content: center;
+}
+
 .mail {
   text-align: center;
   color: #000;
@@ -93,11 +102,25 @@ header {
   float: left;
 }
 
-.centerize {
-  padding-right:1rem!important;
-  padding-left:1rem!important;
-  padding-top:1rem!important;
-  padding-bottom:1rem!important;
+.text {
+  height: 80%;
+  width: 50%;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+ol {
+  list-style:none;
+  counter-reset:mycounter;
+  padding:0;
+}
+
+ol li {
+  position:relative; 
+  padding:5px 0;
 }
 
 pdf {
